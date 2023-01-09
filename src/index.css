@@ -1,13 +1,96 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #23252c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 317px;
+  margin: 20px auto;
+  background-color: #1a1b21;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+img {
+  width: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info-name {
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+
+.info-job {
+  color: #f3bf99;
+  margin-top: 10px;
+}
+
+.email-container {
+  width: 247px;
+  margin: auto;
+}
+.email {
+  width: 247px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-text {
+  margin-left: 5px;
+}
+.about {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  margin: 25px 0px 10px 22px;
+}
+.interests {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  margin: 20px 0px 10px 22px;
+}
+.about-text {
+  color: #dcdcdc;
+  font-size: 14px;
+  text-align: left;
+  padding: 0px 22px;
+}
+
+.footer {
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 30px 0px;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  color: #918e9b;
+  display: flex;
+  gap: 15px;
+}
+.icon {
+  transform: scale(1.2);
 }
